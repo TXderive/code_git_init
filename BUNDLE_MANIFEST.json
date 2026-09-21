@@ -1,0 +1,592 @@
+{
+  "created_at": "2026-09-20T08:18:16.287878+00:00",
+  "project_revision": "ee228c483ad63a924376ea3af7b785cb1b341097",
+  "source_is_working_copy": true,
+  "files": [
+    {
+      "path": "config.shape.json",
+      "bytes": 641,
+      "sha256": "1743e602af7c053e6fb676d30564acafae8ac8e8e943857274f5e8580b4f5362"
+    },
+    {
+      "path": "kernel_backport/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/activities/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/activities/analysis.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/activities/apply_repair.py",
+      "bytes": 896,
+      "sha256": "c40f0cf8ffaa23d41efc6fd2b7d0f8d61504fc5e8538067f4a40f08308cacfc2"
+    },
+    {
+      "path": "kernel_backport/activities/baseline.py",
+      "bytes": 2342,
+      "sha256": "01c1c7419073773b7d3e3ba03d30a4d76fdf2e273e117dff31e85e51d0442f10"
+    },
+    {
+      "path": "kernel_backport/activities/batch_resolve.py",
+      "bytes": 1949,
+      "sha256": "c9e95bd4d97dc4251d8079ff37fdf54ab59d0329f112f8763a526bb6e8bb5cc4"
+    },
+    {
+      "path": "kernel_backport/activities/build_attribution.py",
+      "bytes": 669,
+      "sha256": "bfa77f713bede6253ae47d8ef946ceaf289f632eb0625014b2194da3686ea502"
+    },
+    {
+      "path": "kernel_backport/activities/build_diagnostics.py",
+      "bytes": 657,
+      "sha256": "a2f7621a0d37e06c1629d5bc9e7143e7bef00de7ec4eb99e6ceacf03c35125e2"
+    },
+    {
+      "path": "kernel_backport/activities/build_repair.py",
+      "bytes": 458,
+      "sha256": "bb85ce60f68d4e5b12b823fff6447e649f4ba3256fd96870651070ad354e90fd"
+    },
+    {
+      "path": "kernel_backport/activities/build_repair_analysis.py",
+      "bytes": 3999,
+      "sha256": "f663bd23b43f067e0eb77fd99a5437bd2d40f252ea118227e486c7ba1baa4c0d"
+    },
+    {
+      "path": "kernel_backport/activities/builds.py",
+      "bytes": 2648,
+      "sha256": "b81085b7a943cda12c916f3ac125d802f3690ac2c5d640a27fb6cdba216429f1"
+    },
+    {
+      "path": "kernel_backport/activities/cve_apply.py",
+      "bytes": 1522,
+      "sha256": "b0ef98cf661c320b78f2607077589699ed6ee677e5d234b6ca64b227b73a54fe"
+    },
+    {
+      "path": "kernel_backport/activities/delivery.py",
+      "bytes": 1022,
+      "sha256": "1a1d379713dee296babcb9636c3e4f4cc72a1b828b377e67d110fe4daea00eac"
+    },
+    {
+      "path": "kernel_backport/activities/followups.py",
+      "bytes": 992,
+      "sha256": "071740f0fc92ce8eaf3db4c2462ced3bdcf23acb8d55ea2acd188ee3d0c0433d"
+    },
+    {
+      "path": "kernel_backport/activities/generation.py",
+      "bytes": 3231,
+      "sha256": "33007e3b1d78506e1f82f7c18b012a9e5b6e8475120cf75419890b0cdd46857c"
+    },
+    {
+      "path": "kernel_backport/activities/patching.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/activities/preparation.py",
+      "bytes": 2536,
+      "sha256": "344fd3d31b53b4774eae7224ed89b4fe474555a15ceec93b0877fc1a84043db4"
+    },
+    {
+      "path": "kernel_backport/activities/repair.py",
+      "bytes": 5257,
+      "sha256": "1657cde8b03a0c2d82cb784be1a3591d39ebfedd79c983665b616317e0325435"
+    },
+    {
+      "path": "kernel_backport/agents/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/agents/adapter.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/agents/base.py",
+      "bytes": 751,
+      "sha256": "dfedec744d4fa9ea5d820eb52b1a1679792be7d5b52b7fb5ba2b7c3bcdd2af12"
+    },
+    {
+      "path": "kernel_backport/agents/build_repair_llm.py",
+      "bytes": 27510,
+      "sha256": "5df603898e5bfaef2da4274ec0737d4ab174b68b7622887ecfc3abadab156ad1"
+    },
+    {
+      "path": "kernel_backport/agents/direct_llm.py",
+      "bytes": 20337,
+      "sha256": "961fc82f27e926a1ebf331a54c4cf4f8a164ffae4a6082661189f521e8e2551b"
+    },
+    {
+      "path": "kernel_backport/agents/mock.py",
+      "bytes": 916,
+      "sha256": "78f44341acf9eaf690cd8cfa68c2aaf014d667377f10ea5aa0f041d36194f8c5"
+    },
+    {
+      "path": "kernel_backport/agents/opencode.py",
+      "bytes": 29013,
+      "sha256": "f913050b619173c61b68e296d217b059056a3b7f897ac4a1b049bda60cae43f2"
+    },
+    {
+      "path": "kernel_backport/build_repair_contracts.py",
+      "bytes": 8084,
+      "sha256": "8741c88551215f10a5190d9f3b6e1eb0d62bb2e2f0bf53be910004e7d05c8ce0"
+    },
+    {
+      "path": "kernel_backport/cli.py",
+      "bytes": 1672,
+      "sha256": "5a85c560ecbb2e2e8948347c54ffdfaabf1000bebe9711cfc6b638575dc78110"
+    },
+    {
+      "path": "kernel_backport/config/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/config/models.py",
+      "bytes": 649,
+      "sha256": "46d9b76f0f75eb6b9515fd51cc778005c1a93bca6e32e09bfc85d9a27cafdeff"
+    },
+    {
+      "path": "kernel_backport/config/paths.py",
+      "bytes": 291,
+      "sha256": "646a3a9bff97884515dc1a200e8a7fa21833732f56431366e87094f1e9ee54f8"
+    },
+    {
+      "path": "kernel_backport/config/settings.py",
+      "bytes": 1970,
+      "sha256": "a1e6fda7bf4be7a5b40a90d991de5982af5fb7c8df20552e6b09ba6fe87e2d10"
+    },
+    {
+      "path": "kernel_backport/config/versions.py",
+      "bytes": 1293,
+      "sha256": "a6a66105b79a0b7f6797d3ff9339b8f29c8fa31976b72ed21d89d78d437ed5dd"
+    },
+    {
+      "path": "kernel_backport/contracts.py",
+      "bytes": 30804,
+      "sha256": "0eecf60052b9d7e147c556701b7f91ccf87fa376a4b4c5ec4fb13b6eddf3fc69"
+    },
+    {
+      "path": "kernel_backport/domain/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/domain/auditing.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/domain/plans.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/domain/policies.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/domain/preparation.py",
+      "bytes": 2184,
+      "sha256": "3cfb9760b0bb86a229b1c4415afa648d34b122caa92a58154fd341390be2afa9"
+    },
+    {
+      "path": "kernel_backport/execution/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/execution/aos_adapter.py",
+      "bytes": 4214,
+      "sha256": "5bedcc269a30ec7df800f27c7033386eddbb2c4a4aead152918d9b8d11ec447b"
+    },
+    {
+      "path": "kernel_backport/execution/apply_repair.py",
+      "bytes": 29537,
+      "sha256": "40df413fa7ced390e305f9a2489df89e327c089157fca55be604ad116fbbb3b6"
+    },
+    {
+      "path": "kernel_backport/execution/baseline.py",
+      "bytes": 27199,
+      "sha256": "f3dbf7619c19dcac636f0266de17ccfa01be01580f14f85aaf603e191dee97bc"
+    },
+    {
+      "path": "kernel_backport/execution/batch_resolve.py",
+      "bytes": 3766,
+      "sha256": "1187c535a69aaf26d24a3d14109bcb029fca280e190601436c09c237644ae719"
+    },
+    {
+      "path": "kernel_backport/execution/build_attribution.py",
+      "bytes": 7451,
+      "sha256": "14f16f7647b7c9d002e1816fec4e6129e25d5ff8831d9146f93d06b88ef95356"
+    },
+    {
+      "path": "kernel_backport/execution/build_diagnostics.py",
+      "bytes": 7807,
+      "sha256": "832c62a96540af7e3918da9bf17d8b06237e61cb98bc56c2b7379681651282b8"
+    },
+    {
+      "path": "kernel_backport/execution/build_errors.py",
+      "bytes": 5350,
+      "sha256": "88befb8e880a55a3e070605ec4c9c9ac3b8206ab7ae37ee299f773c00f3870e3"
+    },
+    {
+      "path": "kernel_backport/execution/build_input.py",
+      "bytes": 4278,
+      "sha256": "cdc8193fa9e4cf75c33ea987904711fdac79c5593616318f56fd0a559da6f249"
+    },
+    {
+      "path": "kernel_backport/execution/build_repair.py",
+      "bytes": 2568,
+      "sha256": "80d1dc74ca1260dce09adb8644d917a78cacc82dedf1898ca1444289009cb3bf"
+    },
+    {
+      "path": "kernel_backport/execution/build_repair_analysis.py",
+      "bytes": 4872,
+      "sha256": "5fce92853989b38b4e44056466a194a75ea682dc4a01eda9e7f68a3786192ac8"
+    },
+    {
+      "path": "kernel_backport/execution/build_repair_apply.py",
+      "bytes": 46509,
+      "sha256": "f628ee594b838d3e4eb301a6756b9c8e51736f70a4f47bb2ff17f96c3dff033a"
+    },
+    {
+      "path": "kernel_backport/execution/build_repair_evidence.py",
+      "bytes": 21433,
+      "sha256": "fe767011cbc2a1ef115ba89a431465a73903d2372c5010af00d5b6ba9485573e"
+    },
+    {
+      "path": "kernel_backport/execution/builds.py",
+      "bytes": 20688,
+      "sha256": "26646a8ef30166d95348a1846e0a7c6711bbb467523746dd5a40a26e1b3c82de"
+    },
+    {
+      "path": "kernel_backport/execution/cve_apply.py",
+      "bytes": 31421,
+      "sha256": "e7df500c95ee2d4bf0785429d7724defbb6e3832c22d86d06e06491b9d0da579"
+    },
+    {
+      "path": "kernel_backport/execution/delivery.py",
+      "bytes": 28937,
+      "sha256": "c8e7301e52d04ccc8b5f60444b0789eb9cf0ed26561238f66117e67035712b83"
+    },
+    {
+      "path": "kernel_backport/execution/depend_adapter.py",
+      "bytes": 9332,
+      "sha256": "b0103f0818bd417fcfb08754e92d6c68995593691e30ec63a968faf47289af73"
+    },
+    {
+      "path": "kernel_backport/execution/dependency_evidence.py",
+      "bytes": 14126,
+      "sha256": "4cbfaefcd83cbb5c04c06c565b2ab920a71c8e77911985f97c2f63cb2e3120e1"
+    },
+    {
+      "path": "kernel_backport/execution/followups.py",
+      "bytes": 16186,
+      "sha256": "da2fdfe79ceee0355a713cce9d209d9e13cb1bbc74520011bc79925f7ab5b4df"
+    },
+    {
+      "path": "kernel_backport/execution/generation.py",
+      "bytes": 22475,
+      "sha256": "404e776ddf07a4bbd0a7f726b0fabc4e9f5667f8a95185b00ba3d8849383ed30"
+    },
+    {
+      "path": "kernel_backport/execution/hulk_client.py",
+      "bytes": 3933,
+      "sha256": "1edd35ccbc7fdb44e64e56e54b2b0d8f3aaaa202cb93e6ebedd1ef8c5d7c3cae"
+    },
+    {
+      "path": "kernel_backport/execution/job_runner.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/execution/journal.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/execution/patch_executor.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/execution/patch_state.py",
+      "bytes": 3809,
+      "sha256": "d5083f0dc4c9050cd1108758d58c1778823ff1dfabf3c4112d26b72a043a34c4"
+    },
+    {
+      "path": "kernel_backport/execution/repair.py",
+      "bytes": 64788,
+      "sha256": "3476e319b8fe3afa1a3cc44dfbd05579887d9200bce64456baad5c0f6e19e9c0"
+    },
+    {
+      "path": "kernel_backport/execution/resources.py",
+      "bytes": 4211,
+      "sha256": "07ec27fdc634551713bed5e8cce9f114642787359b4bae70b847c6dd089beb95"
+    },
+    {
+      "path": "kernel_backport/execution/workspace.py",
+      "bytes": 25043,
+      "sha256": "b6ef518e1bd75ef8d4e81eb6281b6677e92c23fdb7b2cb5648001dc8e4f17202"
+    },
+    {
+      "path": "kernel_backport/worker.py",
+      "bytes": 7678,
+      "sha256": "dabdd55e1b2ce22a80078161cda0fb5cea454e62a0c56b789fbf3c4e8438fdae"
+    },
+    {
+      "path": "kernel_backport/workflows/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "kernel_backport/workflows/apply_repair.py",
+      "bytes": 2309,
+      "sha256": "aacd9237b91d80b51677f0a3ccb9310a9450541abfdd11c9075ee226f0b9cbeb"
+    },
+    {
+      "path": "kernel_backport/workflows/backport.py",
+      "bytes": 28876,
+      "sha256": "3810137c150c44bd166bb70c408eefc78b6becadc20f621fdd040c7b4a64aee3"
+    },
+    {
+      "path": "kernel_backport/workflows/baseline.py",
+      "bytes": 10173,
+      "sha256": "5edd1efe1b2162f655ded465ccee7643357a056b215d0129594cd652efc5c0fb"
+    },
+    {
+      "path": "kernel_backport/workflows/batch_resolve.py",
+      "bytes": 18564,
+      "sha256": "8fab59935661f15b993086c469cf71e649f6f441e731ff4459ae4fc8799bbec5"
+    },
+    {
+      "path": "kernel_backport/workflows/build_repair.py",
+      "bytes": 31032,
+      "sha256": "9d1fd601163a065f7b0c1ad0c3ea80c9a2f563ba5f8e5fad3192b8b0642a28a1"
+    },
+    {
+      "path": "kernel_backport/workflows/cve_attempt.py",
+      "bytes": 3399,
+      "sha256": "fecbf93721e68a391c7b4b0f855c2ba975451566f94623ee568b1a171365cc76"
+    },
+    {
+      "path": "kernel_backport/workflows/delivery.py",
+      "bytes": 6751,
+      "sha256": "e1ee6f3de78452d575ec97132c6bf5c2bf0e6990324dbb2519f2e81b5444c04d"
+    },
+    {
+      "path": "kernel_backport/workflows/followups.py",
+      "bytes": 4667,
+      "sha256": "d7f8ce3beff0b32c41825a84f41ee12ff671de17a3dbd295c32813787de0defb"
+    },
+    {
+      "path": "kernel_backport/workflows/full_build.py",
+      "bytes": 14941,
+      "sha256": "b0306f04b6bb3599fefdc5224fcdf8c8843e39ba9a78ab8e0a1dc7b0e3576df0"
+    },
+    {
+      "path": "kernel_backport/workflows/generate.py",
+      "bytes": 12012,
+      "sha256": "24dc2dbad130deda75fc07068e0038353df9f0d7af16fc3958f6bbfe5100609f"
+    },
+    {
+      "path": "kernel_backport/workflows/prepare.py",
+      "bytes": 11447,
+      "sha256": "eadb0904ceffbf9cddafca84add62801d00d50c279fdaef7c5582d10e67e32db"
+    },
+    {
+      "path": "kernel_backport/workflows/process_cves.py",
+      "bytes": 9572,
+      "sha256": "0d9f1ee6192bbd9c280f7a58c43a156376d1ef6807ce2ef79b2499c283a9bb3d"
+    },
+    {
+      "path": "kernel_backport/workflows/repair.py",
+      "bytes": 15941,
+      "sha256": "3f2a5052180fba6c5c86b477e41ce3ad266debccfdee0d89017a0e04c822f64c"
+    },
+    {
+      "path": "kernel_backport/workflows/repair_proposal.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "recovery/resume_build_repair.py",
+      "bytes": 10588,
+      "sha256": "53e4e31f556304a69b9dff93b581323d6ba49d0ac911df01e73693b5075a7671"
+    },
+    {
+      "path": "scripts/bootstrap_aos32.sh",
+      "bytes": 3108,
+      "sha256": "6be9e11ddf39e698f107b6f4e9446fe2fe1c116a3d5fc1d9b4615597ed8612c1"
+    },
+    {
+      "path": "scripts/compile.sh",
+      "bytes": 4439,
+      "sha256": "3f843f30f1e1763d93ff595455e3901ab01c3c6cbd03ea45ca199b5b48d27d53"
+    },
+    {
+      "path": "scripts/prepare_repair_53400_test.py",
+      "bytes": 5956,
+      "sha256": "ea9bf268c6ef8bbc6263ce77612e58fd533ac6a173e86ced60064f272cb626bf"
+    },
+    {
+      "path": "scripts/prepare_repair_v05_evidence.py",
+      "bytes": 4909,
+      "sha256": "6d32ac0d51b94b88722a06d46cb54c38e7e4383c1937ede03d73ed3bb9bbe08f"
+    },
+    {
+      "path": "scripts/rollback_generated_run.py",
+      "bytes": 4221,
+      "sha256": "0fc6b6f4a410dbcba2d025708370ad65f2d1e0ddf0613242e3be4acdc0774628"
+    },
+    {
+      "path": "scripts/rollback_run_to_initial.py",
+      "bytes": 4694,
+      "sha256": "1c0cde7bdba4db249f305a50fe5b9d175c242096dac7d5e5ad38b1be570c00a2"
+    },
+    {
+      "path": "scripts/test_apply_repair_53400_commit.py",
+      "bytes": 3265,
+      "sha256": "320c6093cb5f0e5b4a6377c527801df4fda9e1bd6596698df3c456c260544305"
+    },
+    {
+      "path": "scripts/test_apply_repair_53400_preflight.py",
+      "bytes": 2734,
+      "sha256": "d8c726f2795b875e19d858a4c0030c357bedb65dc8b28cf699081496d82ee3be"
+    },
+    {
+      "path": "scripts/test_direct_llm_child.py",
+      "bytes": 2683,
+      "sha256": "c408384d61b5c7d3ca4e218354f2128c6bb01d7beef8f59021f45b79da89c7ff"
+    },
+    {
+      "path": "scripts/test_direct_llm_gateway.py",
+      "bytes": 1328,
+      "sha256": "ac476e066554a4f5eab8d9a9d867bbe92c7451bae0b31958a526631524f63a1f"
+    },
+    {
+      "path": "scripts/test_direct_llm_root.py",
+      "bytes": 2600,
+      "sha256": "c5d27f7a7fba206ab5cc9e2a717056dcf9563cb7eacbb9fe4867eaa49bcd9c0e"
+    },
+    {
+      "path": "scripts/test_opencode_child.py",
+      "bytes": 2356,
+      "sha256": "ab06b3843faa623c221fbbba59a1765d88f542f4074ccb8f60f23411472b6d92"
+    },
+    {
+      "path": "scripts/test_opencode_root.py",
+      "bytes": 2100,
+      "sha256": "6fd57d87e693845fc8899529226f18884650b2db170ba4f8986e467e44fddf2d"
+    },
+    {
+      "path": "scripts/test_repair_v05_53400.py",
+      "bytes": 4361,
+      "sha256": "8c70fc5cc73b2c3d3c6d55d7d7d1197b0a6dcd317070cb66687973b3e0fb4a3f"
+    },
+    {
+      "path": "scripts/test_repair_v05_direct_llm.py",
+      "bytes": 4584,
+      "sha256": "c6b1433d437297227424c3a4b6042fe21f708a363592532420501c8d1757f514"
+    },
+    {
+      "path": "scripts/test_repair_v05_mock.py",
+      "bytes": 2665,
+      "sha256": "f717163712d65a65857f5d1d5dc49cbf0068ff8f4dc48d813df669259df796ab"
+    },
+    {
+      "path": "scripts/test_repair_v05_opencode.py",
+      "bytes": 3355,
+      "sha256": "8511eec54185b2b8bddc472aab7d034de9ae8944b971e40f20018d9207782b34"
+    },
+    {
+      "path": "scripts/test_repair_v05_reject_reanalyze.py",
+      "bytes": 3710,
+      "sha256": "3f71901b355321de763d1eeb037aa0f87062f0da6620ba8951b810dba71a7ab2"
+    },
+    {
+      "path": "scripts/test_repair_v05_static.py",
+      "bytes": 1687,
+      "sha256": "237686a89470e6bd21efb01e0cd0fa9810a815f6aa3839a48cf19a63b7f95207"
+    },
+    {
+      "path": "tests/test_batch_resolve_persistence.py",
+      "bytes": 6510,
+      "sha256": "fd76c836e82e684dfdb72cc2c8d6c6adfbee3a17dca5df99cce72c372a5c83d2"
+    },
+    {
+      "path": "tests/test_batch_resolve_workflow.py",
+      "bytes": 15604,
+      "sha256": "d79919b71805e15957f3252f7a0f84b4528bae97bf4e0eea8dacb33eec75dce3"
+    },
+    {
+      "path": "tests/test_dependency_evidence.py",
+      "bytes": 7149,
+      "sha256": "c80ee49a03ea21830fdc4fae27297855f27dd8812091b28dd8e59bfb837f94cd"
+    },
+    {
+      "path": "tests/test_full_build_execution.py",
+      "bytes": 9362,
+      "sha256": "1e2cd9640f88c0dea447b023b4401d906fa15b3f87707eb53c820527f59282f4"
+    },
+    {
+      "path": "tests/test_full_build_workflow.py",
+      "bytes": 10545,
+      "sha256": "98c559117c9b18eec211706e9d36e74346ec91da31589578c9d6dfb429e58255"
+    },
+    {
+      "path": "tests/test_step1.py",
+      "bytes": 14667,
+      "sha256": "135329321650435ab3e614532501879dbfb256bdd704e2b092672e9b01ea676b"
+    },
+    {
+      "path": "tests/test_step2_build_diagnostics.py",
+      "bytes": 5624,
+      "sha256": "c9a1589c3849c9da89fe147000090384ae02d5d1c2351fd2b406951698de91fa"
+    },
+    {
+      "path": "tests/test_step3_build_repair_analysis.py",
+      "bytes": 16332,
+      "sha256": "6a985e9707e1094764c0f0c989469cfa90bdc0f369c766243ae3137d6399a86b"
+    },
+    {
+      "path": "tests/test_step4_build_repair_apply.py",
+      "bytes": 18550,
+      "sha256": "072d19a13a5f57c60d7a5dc2d9ea32a3a83287b53951ab1d2e36a8d5d985f22d"
+    },
+    {
+      "path": "tests/test_step5_delivery.py",
+      "bytes": 13956,
+      "sha256": "fe40b18234b7dfb5aedbd060cf983fa9f322d62e373d002fdbdaabf705f8f4da"
+    },
+    {
+      "path": "tests/unit/test_preparation.py",
+      "bytes": 5188,
+      "sha256": "fc7d4829eae846430e939498eff5b46bcdb213f9b64c7aebf5029fdacf2eeadc"
+    }
+  ],
+  "warnings": [],
+  "excluded": [
+    "workspace",
+    "output",
+    ".git",
+    ".venv",
+    ".env",
+    "config.json 原始值"
+  ],
+  "note": "不导入工程模块、不启动任务、不修改源码；凭据启发式检查不是泄密保证。"
+}
