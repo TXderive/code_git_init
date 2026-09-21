@@ -1,0 +1,23 @@
+{
+  "workspace_root": "<字符串值已省略>",
+  "output_root": "<字符串值已省略>",
+  "compile_script": "<字符串值已省略>",
+  "required_commands": [
+    "<字符串值已省略>",
+    "<字符串值已省略>",
+    "<字符串值已省略>",
+    "<字符串值已省略>",
+    "<字符串值已省略>",
+    "<字符串值已省略>",
+    "<字符串值已省略>"
+  ],
+  "min_free_gb": 20,
+  "repair_llm": {
+    "base_url": "<字符串值已省略>",
+    "api_key": "<字符串值已省略>",
+    "model": "<字符串值已省略>",
+    "timeout": 240,
+    "verify_ssl": true,
+    "ca_cert": "<字符串值已省略>"
+  }
+}
